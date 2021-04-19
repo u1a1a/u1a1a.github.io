@@ -17,6 +17,7 @@ nav {
 
 nav {
   font: 12px 'opensans-bold', sans-serif;
+  font-weight: bold;
   width: 100%;
   text-transform: uppercase;
   letter-spacing: 2.5px;
