@@ -7,13 +7,13 @@ body {
 header, footer {
   flex: none;
 }
-/*
+
 nav {
   order: -1;
   padding: 1em;
-  border-radius: 3px;
-  background: rgba(147, 128, 108, 0.1);
-}*/
+  /*border-radius: 3px;
+  background: rgba(147, 128, 108, 0.1);*/
+}
 
 nav {
   font: 12px 'opensans-bold', sans-serif;
