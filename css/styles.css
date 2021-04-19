@@ -7,12 +7,55 @@ body {
 header, footer {
   flex: none;
 }
-
+/*
 nav {
   order: -1;
   padding: 1em;
   border-radius: 3px;
   background: rgba(147, 128, 108, 0.1);
+}*/
+
+nav {
+  font: 12px 'opensans-bold', sans-serif;
+  width: 100%;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  margin: 0 auto;
+  z-index: 100;
+  position: fixed;
+  left: 0;
+  top: 0;
+  background-color: #333;
+}
+
+nav ul {
+    min-height: 48px;
+    width: auto;
+    text-align: center;
+}
+
+nav ul, nav li, nav a {
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav li.current a {
+  color: #fe6928;
+}
+
+nav li a {
+  display: inline-block;
+  padding: 8px 13px;
+  line-height: 32px;
+  text-decoration: none;
+  text-align: left;
+  color: #fff;
 }
 
 main {
