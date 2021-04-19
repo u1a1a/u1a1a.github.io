@@ -84,12 +84,12 @@ nav li a {
   color: #fff;
 }
 
-main {
+/*main {
   display: flex;
   flex: 1 0 auto;
   flex-direction: column;
   padding: var(--space);
-}
+}*/
 
 .content {
   margin-top: var(--space);
