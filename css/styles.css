@@ -70,11 +70,10 @@ nav li a {
   background: #1A1E23;
   font-family: 'Lato', sans-serif;
   position: relative;
-  padding-bottom: 12px;
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
+  min-height: 48px;
 }
 
 .tab .line {
