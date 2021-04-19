@@ -1,4 +1,4 @@
-var nav = $('div.tab');
+var nav = $('.tab');
 var line = $('<div />').addClass('line');
 
 line.appendTo(nav);
